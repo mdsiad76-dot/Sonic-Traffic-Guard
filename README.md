@@ -15,3 +15,6 @@
 7. লাল সবুজ ও হলুদ led
 
 8. 220 ohm resistor 
+
+## সার্কিট ডায়াগ্রাম
+![Circuit Diagram](./circuit_diagram.png)
