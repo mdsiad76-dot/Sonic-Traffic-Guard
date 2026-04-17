@@ -1,8 +1,8 @@
 এই প্রজেক্ট টি তৈরি করতে আমাদের যে যে components দরকার হবে - 
 
-1.arduino uno
+1. arduino uno
 
-2.jumper wire 
+2. jumper wire 
 
 3. sound sensor ( max 9814 ) হইলে ভালো হয় 
 
