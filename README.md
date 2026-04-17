@@ -1,20 +1,7 @@
-এই প্রজেক্ট টি তৈরি করতে আমাদের যে যে components দরকার হবে - 
+# Sonic Traffic Guard
 
-1. arduino uno
+## Circuit Diagram
 
-2. jumper wire 
+![Circuit Diagram](1776352583890.png)
 
-3. sound sensor ( max 9814 ) হইলে ভালো হয় 
-
-4. external power unit ( battery ) 
-
-5. LCD প্যানেল 
-
-6. একটা breadboard 
-
-7. লাল সবুজ ও হলুদ led
-
-8. 220 ohm resistor 
-
-## সার্কিট ডায়াগ্রাম
-![Circuit Diagram](./circuit_diagram.png)
+This section includes the circuit diagram for the Sonic Traffic Guard project.
