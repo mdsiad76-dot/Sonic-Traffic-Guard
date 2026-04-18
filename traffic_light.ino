@@ -14,7 +14,7 @@ int yellowTime = 3;
 int greenTime = 15;       
 int penaltyTime = 5;      
 
-// LCD আপডেট করার ফাংশন (এটি কোডের উপরে নিয়ে আসলাম যাতে এরর না দেয়)
+// LCD আপডেট করার ফাংশন 
 void updateLCD(String status, int time) {
   lcd.clear();
   lcd.setCursor(0, 0);
@@ -43,7 +43,7 @@ void setup() {
 }
 
 void loop() {
-  // সবুজ বাতি
+  // green light 
   digitalWrite(greenLed, HIGH);
   for (int i = greenTime; i > 0; i--) {
     updateLCD("GO (Green)", i);
@@ -51,7 +51,7 @@ void loop() {
   }
   digitalWrite(greenLed, LOW);
 
-  // হলুদ বাতি
+  // yellow light 
   digitalWrite(yellowLed, HIGH);
   for (int i = yellowTime; i > 0; i--) {
     updateLCD("WAIT (Yellow)", i);
@@ -59,7 +59,7 @@ void loop() {
   }
   digitalWrite(yellowLed, LOW);
 
-  // লাল বাতি
+  // red light 
   digitalWrite(redLed, HIGH);
   int timeLeft = redTime;
   
