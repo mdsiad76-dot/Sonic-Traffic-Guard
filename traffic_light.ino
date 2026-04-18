@@ -38,7 +38,7 @@ void setup() {
   lcd.setCursor(2, 0);
   lcd.print("Sonic TRAFFIC");
   lcd.setCursor(4, 1);
-  lcd.print("SYSTEM by Siad PGC");
+  lcd.print("Guard by Siad PGC");
   delay(2000);
 }
 
