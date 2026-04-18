@@ -36,9 +36,9 @@ void setup() {
   lcd.backlight();
   
   lcd.setCursor(2, 0);
-  lcd.print("SMART TRAFFIC");
+  lcd.print("Sonic TRAFFIC");
   lcd.setCursor(4, 1);
-  lcd.print("SYSTEM");
+  lcd.print("SYSTEM by Siad PGC");
   delay(2000);
 }
 
